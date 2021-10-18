@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Chromium Code Search",
+    "description": "Link code search path to source.chromium.org.",
+    "version": "1.0.0",
+    "permissions": [
+        "contextMenus",
+        "tabs",
+        "scripting"
+    ],
+    "action": {
+        "default_icon": "images/CCS-Icon.png",
+        "default_title": "CCS"
+    },
+    "background": {
+        "service_worker":  "background.js"
+    },
+    "host_permissions": [
+        "https://source.chromium.org/*",
+		"https://chromium-review.googlesource.com/*"
+    ],
+    "icons": {
+        "16": "images/CCS-Icon.png",
+        "32": "images/CCS-Icon.png",
+        "48": "images/CCS-Icon.png",
+        "128": "images/CCS-Icon.png"
+    }
+}
