@@ -1,7 +1,7 @@
 # Chromium Code Search (CCS)
 
-[![CodeQL workflow](https://github.com/song-fangzhen/chromium-open-ide/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/song-fangzhen/chromium-open-ide/actions/workflows/codeql-analysis.yml)
-[![Bors enabled](https://bors.tech/images/badge_small.svg)](https://app.bors.tech/repositories/37745)
+[![CodeQL workflow](https://github.com/song-fangzhen/chromium-code-search/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/song-fangzhen/chromium-code-search/actions/workflows/codeql-analysis.yml)
+[![Bors enabled](https://bors.tech/images/badge_small.svg)](https://app.bors.tech/repositories/38386)
 
 `CCS` gives you a context menu for linking code search path to 
 [source.chromium.org](https://source.chromium.org) from
